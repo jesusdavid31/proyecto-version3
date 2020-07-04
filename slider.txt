@@ -1,0 +1,34 @@
+<div class="slide-contenedor">
+        <div class="miSlider fade">
+            <div class="efecto-inicio">
+                <h1>Convertimos tus sueños en realidad</h1>
+                <p class="copy">Sabemos lo importante que es para ti el crecimiento de tu empresa.
+                    Estamos capacitados para brindarte soluciones digitales que conviertan tu negocio
+                    en un éxito del mercado.</p>
+            </div>
+        </div>
+        <div class="miSlider fade">
+            <div class="efecto-inicio">
+                <h1>Nuestros servicios</h1>
+                <p class="copy">Nuestro proceso es ágil, personalizado y controlado; reduce el
+                    riesgo, aumenta la transparencia entre nuestro equipo y el tuyo, y permite las
+                    entregas a tiempo. </p>
+            </div>
+        </div>
+        <div class="miSlider fade">
+            <div class="efecto-inicio">
+                <h1>Portafolio</h1>
+                <p class="copy">Nuestro mejor argumento son los casos de éxito
+                    que hemos logrado</p>
+            </div>
+        </div>
+        <div class="direcciones">
+            <a href="#" class="atras" onclick="avanzaSlide(-1)">&#10094;</a>
+            <a href="#" class="adelante" onclick="avanzaSlide(1)">&#10095;</a>
+        </div>
+        <div class="barras">
+            <span class="barra active" onclick="posicionSlide(1)"></span>
+            <span class="barra" onclick="posicionSlide(2)"></span>
+            <span class="barra" onclick="posicionSlide(3)"></span>
+        </div>
+    </div>

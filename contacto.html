@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NetsDrøm</title>
+    <link rel="stylesheet" href="assets/estilos.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="grid">
+            <div class="logo">
+                <h1>NetsDrøm</h1>
+            </div>
+
+            <div id="menu">
+                <ul>
+                    <li>
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="tuProyecto.html">Contacto</a>
+                    </li>
+                    <li>
+                        <a href="prueba.html">Portafolio</a>
+                    </li>
+                </ul>
+            </div>
+            <img src="assets/img/hamburguesa.svg" alt="Menu" class="hamburguer">
+            <div class="menu-navegacion">
+                <a href="index.html">Inicio</a>
+                <a href="tuProyecto.html">Contacto</a>
+                <a href="prueba.html">Portafolio</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="presentacion-contacto">
+            <div class="titulo-contacto">
+                <h1>Cuéntanos lo que necesitas</h1>
+
+                <h3>¿Listo para acelerar tu proyecto? solo avísanos.</h3>
+            </div>
+        </section>
+        <section id="pagina-contacto">
+            <div class="container-contacto">
+                <div class="imagen-contacto">
+                    <img src="assets/img/tu-proyecto.jpg" class="img-contact">
+                </div>
+                <div class="form_container_contacto">
+                    <div class="form-contacto">
+                        <form action="" method="" enctype="multipart/form-data">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" name="nombre" required="required" placeholder="Ingresa tu nombre" />
+
+                            <label for="email">Email</label>
+                            <input type="text" name="email" required="required" placeholder="Ingresa tu correo" />
+
+                            <label for="telefono">Teléfono</label>
+                            <input type="email" name="telefono" required="required" placeholder="Ingresa tu teléfono" />
+
+                            <label for="descripcion_proyecto" class="label_form">Cuéntanos más sobre tu
+                                proyecto.</label>
+                            <textarea type="text" name="descripcion_proyecto" required="required"
+                                placeholder="Describe tu proyecto aquí"></textarea>
+
+                            <input type="submit" value="Enviar" class="boton-contacto" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container-footer">
+            <div class="contacto-footer">
+                <h1>Contacto</h1>
+                <h3>netsdrom@hotmail.com</h3>
+                <h3>Barranquilla - Atlántico - Colombia</h3>
+                <h3>+57 300 345 7839</h3>
+            </div>
+            <div class="contacto-footer-redes">
+                <h1>Redes sociales</h1>
+                <div class="iconos">
+                        <a href="#" class="social-media-icon"><i class='bx bxl-whatsapp'></i></a>
+                        <a href="#" class="social-media-icon"><i class='bx bxl-instagram'></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="derechos-reservados">
+            <h2> © 2020 Todos los derechos reservados. Creado por NetsDrøm</h2>
+        </div>
+    </footer>
+
+    <script src="menu.js"></script>
+</body>
+
+</html>
